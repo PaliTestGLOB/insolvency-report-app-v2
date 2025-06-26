@@ -1,0 +1,6 @@
+<!-- Basic form for company input -->
+<form method="POST">
+    <input type="text" name="company" placeholder="Enter company name" required>
+    <button type="submit">Generate Report</button>
+    {% if message %}<p>{{ message }}</p>{% endif %}
+</form>
